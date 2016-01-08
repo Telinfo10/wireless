@@ -1,0 +1,48 @@
+GROUP MEMBERS:
+S/no	NAME	REGNO	PROGR
+1	MALONGO, BARAKA M	T/UDOM/2013/04764	BSc.TE
+2	JOHN, JOHN F	T/UDOM/2013/04791	BSc. TE
+3	SHIKIBO, NYANDA	T/UDOM/2013/04794	BSc. TE
+4	CHAULA, CHRISTOPHER A	T/UDOM/2013/04823	BSc. TE
+5	OMARY, SHABANI 	T/UDOM/2013/04785	BSc. TE
+
+ 
+
+ANSWERS FOR LAB1”:
+1.	Tictoc1
+2.	Two nodes and one link.
+3.	To create a message object to be send out on gate out.
+4.	HandleMessage (): for delivering message from one module to another.
+5.	Send function: sending message
+6.	Define_module() Macro, for registering class Txc1 in OMNeT ++ system
+No, because it’s a function and not library.
+7.	The program is compiled without error but on running it gives the error
+
+
+8.	 
+
+
+
+
+
+
+
+RUNNING TIME
+ 
+
+
+a.	AFTER COMMENT THE STATEMENT cMessage *msg=new cMessage(“tictocMsg”);
+Send(msg,”out”)
+The program compiled without error but when running the following error displayed
+
+ 
+
+
+b.	WHEN ADDING delete msg between the statements cMessage *msg=new cMessage(“tictocMsg”);
+Send(msg,”out”)
+The program compiled without error but not running
+c.	AFTER ADDING THE STATEMENT delete msg=NULL between the lines cMessage *msg=new cMessage(“tictocMsg”);
+Send(msg,”out”)
+The program running without error but when running display this error
+ 
+
